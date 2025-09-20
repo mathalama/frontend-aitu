@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Feedback Form</title>
+  <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+  <h1 id="page-title">Student Grades</h1>
+
+  <div class="table-wrap">
+    <table aria-describedby="table-desc" role="table" border="1">
+      <caption id="table-desc">
+        Grades for the semester 
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="4">Grade Report</th>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>Subject</th>
+          <th>Grade</th>
+          <th>Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Arthur</td>
+          <td>English</td>
+          <td>71</td>
+          <td>Good</td>
+        </tr>
+        
+        <tr>
+          <td>Alikhan</td>
+          <td>Physics</td>
+          <td>91</td>
+          <td>The Best</td>
+        </tr>
+
+        <tr>
+          <td>Berdibek</td>
+          <td>Psychology</td>
+          <td>79</td>
+          <td>Showing progress</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+    <h1>Student Feedback Form</h1>
+  <form>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="course">Select Course:</label>
+    <select id="course" name="course" required>
+      <option value="">--Choose a course--</option>
+      <option value="html">HTML Basics</option>
+      <option value="css">CSS Styling</option>
+      <option value="js">JavaScript Fundamentals</option>
+    </select>
+
+    <p>Year of Study:</p>
+    <label><input type="radio" name="year" value="1st" required> 1st Year</label>
+    <label><input type="radio" name="year" value="2nd"> 2nd Year</label>
+    <label><input type="radio" name="year" value="3rd"> 3rd Year</label>
+
+    <p>Topics you liked:</p>
+    <label><input type="checkbox" name="topics" value="html"> HTML</label>
+    <label><input type="checkbox" name="topics" value="css"> CSS</label>
+    <label><input type="checkbox" name="topics" value="js"> JavaScript</label>
+
+    <label for="feedback">Your Feedback:</label>
+    <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
