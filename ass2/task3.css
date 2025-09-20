@@ -16,7 +16,6 @@ body {
   margin: 0 auto 2rem;
   overflow-x: auto;
 }
-
 table {
   width: 100%;
   border-collapse: separate;
@@ -26,14 +25,12 @@ table {
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   overflow: hidden;
 }
-
 caption {
   caption-side: bottom;
   padding: 0.5rem;
   font-size: 0.9rem;
   color: #cccccc;
 }
-
 thead th {
   background: #616161;
   color: #ffffff;
@@ -42,32 +39,25 @@ thead th {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-
 th, td {
   border: 1px solid #e0e6ef;
   padding: 12px 10px;
   text-align: center;
 }
-
 tbody tr:nth-child(even) {
   background: #f9fbff;
 }
-
 tbody tr:hover {
   background: #eaf3ff;
   transition: background 0.3s ease;
 }
-
-
 tbody tr:nth-child(even) {
   background: #f3f7ff;
 }
-
 h1 {
   text-align: center;
   color: #ffffff;
 }
-
 form {
   background: #fff;
   max-width: 500px;
@@ -76,13 +66,11 @@ form {
   border-radius: 8px;
   border: 1px solid #ccc;
 }
-
 label, p {
   display: block;
   margin-top: 10px;
   font-weight: bold;
 }
-
 input, select, textarea {
   width: 90%;
   padding: 8px;
@@ -90,13 +78,11 @@ input, select, textarea {
   border: 1px solid #aaa;
   border-radius: 5px;
 }
-
 input[type="radio"],
 input[type="checkbox"] {
   width: auto;
   margin-right: 5px;
 }
-
 button {
   background-color: #484848;
   color: rgb(255, 255, 255);
@@ -106,7 +92,6 @@ button {
   margin-top: 15px;
   cursor: pointer;
 }
-
 button:hover {
   background-color: #727272;
 }

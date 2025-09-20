@@ -3,16 +3,12 @@ body {
     font-family: Arial, sans-serif;
     background-color: #303030;
 }
-
-/* Header */
 .header {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
 }
-
-/* Navbar */
 .navbar {
     background-color: #ffffff;
     overflow: hidden;
@@ -27,14 +23,10 @@ body {
 .navbar a:hover {
     background-color: #ffffff;
 }
-
-/* Container */
 .container {
     overflow: hidden;
     padding: 20px;
 }
-
-/* Sidebar */
 .sidebar {
     float: left;
     width: 25%;
@@ -50,8 +42,6 @@ body {
     padding: 8px 0;
     border-bottom: 1px solid #ccc;
 }
-
-/* Main content */
 .content {
     float: right;
     width: 70%;
@@ -59,8 +49,6 @@ body {
     padding: 20px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
-
-/* Footer */
 .footer {
     position: fixed;
     left: 0;
