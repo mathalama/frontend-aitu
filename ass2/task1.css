@@ -15,13 +15,13 @@ body {
     text-align: center;
 }
 .navbar a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 14px 20px;
     display: inline-block;
 }
 .navbar a:hover {
-    background-color: #ffffff;
+    background-color: #d0d0d0;
 }
 .container {
     overflow: hidden;
